@@ -1,8 +1,8 @@
 {
     "default_server_config": {
         "m.homeserver": {
-            "base_url": "https://matrix-client.matrix.org",
-            "server_name": "matrix.org"
+            "base_url": "https://matrix.bariscodefx.com.tr",
+            "server_name": "matrix.bariscodefx.com.tr"
         },
         "m.identity_server": {
             "base_url": "https://vector.im"
@@ -30,11 +30,10 @@
     "default_federate": true,
     "default_theme": "light",
     "room_directory": {
-        "servers": ["matrix.org"]
+        "servers": ["matrix.bariscodefx.com.tr"]
     },
     "enable_presence_by_hs_url": {
-        "https://matrix.org": false,
-        "https://matrix-client.matrix.org": false
+        "https://matrix.bariscodefx.com.tr": false,
     },
     "setting_defaults": {
         "breadcrumbs": true
